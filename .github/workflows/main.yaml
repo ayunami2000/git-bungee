@@ -21,6 +21,7 @@ jobs:
           ./server.sh
         env:
           PKTRIOT: ${{ secrets.PKTRIOT }}
+          DROPBOX: ${{ secrets.DROPBOX }}
           
 
       - name: Repository Dispatch
