@@ -1,2 +1,2 @@
-# git-craft
-play.poo.li:22220
+# git-bungee
+play.memery.org:22111
