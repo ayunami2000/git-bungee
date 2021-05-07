@@ -1,6 +1,6 @@
 #!/bin/bash
 sleep 5
-curl -X POST https://content.dropboxapi.com/2/files/download --header "Authorization: Bearer $DROPBOX" --header "Dropbox-API-Arg: {\"path\": \"/server.7z\"}"
+curl -X POST https://content.dropboxapi.com/2/files/download --header "Authorization: Bearer $DROPBOX" --header "Dropbox-API-Arg: {\"path\": \"/server.7z\"}" -o server.7z
 7z e server.7z
 rm -rf server.7z
 ls
