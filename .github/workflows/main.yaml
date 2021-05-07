@@ -18,7 +18,6 @@ jobs:
       - name: Run 🚀
         run: |
           export $(cat .env | xargs)
-          ./restore.sh
           ./server.sh
         env:
           PKTRIOT: ${{ secrets.PKTRIOT }}
